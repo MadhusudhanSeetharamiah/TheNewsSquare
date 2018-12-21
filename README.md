@@ -1,2 +1,2 @@
 # TheNewsSquare
-A simple New Feedly app.
+A simple News Feedly app.
