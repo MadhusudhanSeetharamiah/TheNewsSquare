@@ -1,12 +1,19 @@
+/**
+ * author       Madhusudhan Seetharamiah
+ */
 import React, { Component } from "react";
+import Header from "./header";
+import Footer from "./footer";
+import "../styles/css/common.css";
 
 class Application extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    return <div>{"hey there"}</div>;
+    return (
+      <div className="application">
+        <Header />
+        <Footer location={this.props.location} />
+      </div>
+    );
   }
 }
 
